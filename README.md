@@ -1,7 +1,7 @@
-[![Code Shelter](https://www.codeshelter.co/static/badges/badge-flat.svg)](https://www.codeshelter.co/)
-
-#### NuGet
-Fasterflect is available on NuGet: https://www.nuget.org/packages/fasterflect/
+#### Azure DevOps
+[![Build Status](https://dev.azure.com/eXpandDevOps/eXpandFramework/_apis/build/status/eXpandFramework.fasterflect?branchName=master)](https://dev.azure.com/eXpandDevOps/eXpandFramework/_build/latest?definitionId=50&branchName=master) [![Azure DevOps Tests](https://img.shields.io/azure-devops/tests/expandDevOps/expandframework/50.svg?logo=azuredevops)](https://dev.azure.com/eXpandDevOps/eXpandFramework/_build/latest?definitionId=50) [![Azure DevOps Coverage](https://img.shields.io/azure-devops/coverage/eXpandDevOps/expandframework/50.svg?logo=azuredevops)](https://dev.azure.com/eXpandDevOps/eXpandFramework/_build/latest?definitionId=50)
+### Nuget
+![Nuget](https://img.shields.io/nuget/v/fasterflect.Xpand) ![Nuget](https://img.shields.io/nuget/dt/fasterflect.Xpand) 
 
 #### Overview
 If you frequently use .NET Reflection in your application, you would immediately be aware of its two big issues: usability of the API as a whole and performance of reflection invocations (e.g. method invocation or member access). Fasterflect addresses the usability issue by providing intuitive & highly flexible extension methods to Type, Object and various metadata classes (such as FieldInfo, MethodInfo, etc.) which not only preserve but also enhance the .NET Reflection metadata lookup capability. The performance issue of reflection invocation is addressed by Fasterflect through the use of lightweight dynamic code generation, which performs anywhere from 5 to many hundreds times faster than native .NET Reflection invocations.
