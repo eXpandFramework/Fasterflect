@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29319.158
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fasterflect", "Fasterflect\Fasterflect.csproj", "{FDF54936-A188-45B1-B482-632DA23DB0B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fasterflect", "Fasterflect\Fasterflect.csproj", "{FDF54936-A188-45B1-B482-632DA23DB0B0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterflectBenchmark", "FasterflectBenchmark\FasterflectBenchmark.csproj", "{6AA6E3DF-285F-499A-B392-0B2510D0D497}"
 EndProject
@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterflectTest", "Fasterfl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{65C619B0-3B3E-4482-848C-1BC17CA71711}"
 	ProjectSection(SolutionItems) = preProject
-		CodeCoverage.testsettings = CodeCoverage.testsettings
-		Default.testsettings = Default.testsettings
 		Fasterflect.vsmdi = Fasterflect.vsmdi
 		key.snk = key.snk
 		SolutionInfo.cs = SolutionInfo.cs

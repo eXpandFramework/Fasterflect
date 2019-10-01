@@ -183,16 +183,7 @@ namespace FasterflectTest.Services
 		#endregion
 
 		#region MapFields
-		[TestMethod]
-		public void TestMapFields()
-		{
-			RunWith( ( object person ) =>
-					 {
-						var source = new Source( "John", 10, 120d );
-						source.MapFields( person );
-						VerifyFields( person, new { name = "John", age = 10, metersTravelled = 120d } );
-					 } );
-		}
+		
 
 		[TestMethod]
 		public void TestMapFieldsWithFilter()
