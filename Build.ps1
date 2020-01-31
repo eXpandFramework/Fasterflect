@@ -3,7 +3,6 @@
 }
 
 Get-ChildItem *.sln -Recurse|ForEach-Object{
-    dotnet restore $_.FullName --configuration Release
     dotnet build $_.FullName --configuration Release
     if ($LASTEXITCODE){
         throw
